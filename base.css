@@ -1,0 +1,44 @@
+.header {
+  font-size: 3em;
+  color: white;
+  background: #404040;
+  text-align: center;
+  height: 2.5em;
+  text-shadow: 4px 4px 4px black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#error {
+  font-size: 2em;
+  color: red;
+  height: 50px;
+  text-shadow: 2px 2px 2px black;
+  margin: 2em;
+  display: none;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.visible {
+  display: block;
+}
+
+#target {
+  width: 100% !important;
+  height: 100% !important;
+  position: absolute;
+}
+
+body {
+  background: #000000;
+  margin: 0;
+  padding: 0;
+  overscroll-behavior: none;
+}
